@@ -1,0 +1,198 @@
+/* #Site Styles
+================================================== */
+body {
+	background-image: url('../img/bg_paper_blue.png');
+	font: 16px/25px "Ubuntu", Helvetica, Arial, sans-serif;
+}
+
+.btn-blue {
+  background-color: hsl(220, 60%, 23%) !important;
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#2953a7), to(#172e5d));
+  background-image: -moz-linear-gradient(top, #2953a7, #172e5d);
+  background-image: -ms-linear-gradient(top, #2953a7, #172e5d);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2953a7), color-stop(100%, #172e5d));
+  background-image: -webkit-linear-gradient(top, #2953a7, #172e5d);
+  background-image: -o-linear-gradient(top, #2953a7, #172e5d);
+  background-image: linear-gradient(#2953a7, #172e5d);
+  border-color: #172e5d #172e5d hsl(220, 60%, 18.5%);
+  color: #fff !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.29);
+  -webkit-font-smoothing: antialiased;
+}
+
+.scale-with-grid {
+	max-width: 100%;
+	height: auto;
+}
+
+.bg-color {
+  background-color: rgba(32,64,128,0.2);
+}
+
+.brd {
+	border: 1px dotted green;
+}
+
+.slats {
+	margin-left: 5px;
+}
+.slats img {
+	float: left;
+	margin: 0;
+	padding: 5px;
+	width: 3em;
+	height: 3em;
+	/*
+	border: 3px solid #eee;
+	*/
+}
+
+.slats h3{
+	line-height: 3em;
+	padding-left: 2.5em;
+}
+
+.section {
+  box-shadow: 0 0 1em #aaa;
+}
+
+.section h2{
+	color: #204080;
+}
+
+.top-pad {
+	padding-top: 1em;
+}
+
+.bottom-pad {
+	padding-bottom: 1em;
+}
+
+.no-bullets {
+  margin-left: 0;
+}
+.no-bullets li {
+  list-style-type: none;
+}
+
+/* #Page Styles
+================================================== */
+
+#masthead {
+  position: relative;
+	padding-top: 2em;
+	margin-bottom: 2em;
+	border-bottom: 5px solid #204080;
+}
+
+#logo img {
+  height: 6em;
+  width: auto;
+}
+
+#nav {
+  position: relative;
+  height: 6em;
+}
+
+#navlinks {
+  position: absolute;
+  bottom: 5px;
+  right: 0;
+}
+
+#subtitle {
+	text-align: right;
+	color: #204080;
+  position: absolute;
+  top: 5px;
+  right: 0;
+}
+
+#footer {
+	text-align: center;
+	color: #204080;
+	border-top: 5px solid #204080;
+	padding-top: 5px;
+}
+
+#flash, #services, #clients, #feedback, #address {
+	background: #fff;
+	margin-bottom: 2em;
+	padding-left: 1em;
+	border-radius: 8px;
+}
+
+#flash {
+  padding-bottom: 1em;
+}
+
+#clients {
+	color: black;
+	background: white;
+	padding-bottom: 2em;
+	border-radius: 8px;
+}
+
+#logos-list {
+	text-align: center;
+}
+
+#logos-list a img {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+}
+
+.img-h3 {
+	height: 3em;
+	width: auto;
+}
+
+.img-h4 {
+	height: 4em;
+	width: auto;
+}
+
+.img-h5 {
+	height: 5.5em;
+	width: auto;
+}
+
+/* #Media Queries
+================================================== */
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/
